@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.prose-report :is(h1, h2, h3) {
+  @apply font-semibold text-slate-900 mt-4 mb-2;
+}
+.prose-report h1 {
+  @apply text-xl;
+}
+.prose-report h2 {
+  @apply text-lg;
+}
+.prose-report h3 {
+  @apply text-base;
+}
+.prose-report p {
+  @apply mb-3 leading-relaxed text-slate-700;
+}
+.prose-report ul {
+  @apply list-disc pl-5 mb-3 text-slate-700;
+}
+.prose-report li {
+  @apply mb-1;
+}
+.prose-report hr {
+  @apply my-4 border-slate-200;
+}
+.prose-report strong {
+  @apply font-semibold text-slate-900;
+}
