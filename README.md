@@ -1,4 +1,4 @@
-# LangGraph Tutorial 01: Research & Report Assistant
+# LangGraph-based Research & Report Assistant
 
 A production-shaped, end-to-end example of a **cyclic, human-in-the-loop agentic
 workflow** built with [LangGraph](https://github.com/langchain-ai/langgraph): it
